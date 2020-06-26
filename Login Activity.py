@@ -15,7 +15,7 @@ headers = {
 
 response = requests.request("GET", url, headers=headers)
 json_data = json.loads(response.text)
-print('This Devices Want Accept To Login Into Your Account :38184444231%3AO3TaNReknzhgeE%3A23')
+print('This Devices Want Accept To Login Into Your Account :')
 print('\n')
 print(json_data['data']['suspicious_logins'])
 print('\n')
